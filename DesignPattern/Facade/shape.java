@@ -1,2 +1,5 @@
-package DesignPattern.Facade;public interface shape {
+package DesignPattern.Facade;
+
+public interface shape {
+    void draw();
 }

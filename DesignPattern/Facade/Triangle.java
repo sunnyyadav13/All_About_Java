@@ -1,2 +1,9 @@
-package DesignPattern.Facade;public class triangle {
+package DesignPattern.Facade;
+
+public class Triangle implements shape{
+
+    @Override
+    public void draw() {
+        System.out.println("Triangle: draw()");
+    }
 }
