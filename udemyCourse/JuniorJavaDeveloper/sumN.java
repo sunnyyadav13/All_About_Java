@@ -1,4 +1,4 @@
-package udemyCourse;
+package udemyCourse.JuniorJavaDeveloper;
 
 import java.util.Scanner;
 
@@ -20,4 +20,6 @@ public class sumN {
         return sum;
     }
 }
+
+
 

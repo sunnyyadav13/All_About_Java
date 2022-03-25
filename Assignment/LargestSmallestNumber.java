@@ -20,6 +20,9 @@ public class LargestSmallestNumber {
 
         int min_no=smaller_no(arr); // return minimum value
         System.out.println("minimum value:"+min_no);
+
+        int avg=AVG(arr); // return minimum value
+        System.out.println("Average No:"+avg);
     }
 
     static int large_no(int[] arr){
@@ -42,5 +45,13 @@ public class LargestSmallestNumber {
             }
         }
         return min;
+    }
+
+    static int AVG(int[] arr){
+        int sum=0;
+        for(int ele:arr){
+            sum+=ele;
+        }
+        return (sum/arr.length);
     }
 }
